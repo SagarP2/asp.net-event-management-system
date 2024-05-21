@@ -1,0 +1,145 @@
+﻿body {
+    background: #c4c4c4;
+    background: linear-gradient(white,blue);
+    font-family: Verdana;
+}
+#login
+{
+    width:260px;
+    height:200px;
+    border:solid 2px black;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:0;
+    margin-top:150px;
+    font-size:small;
+}
+ 
+ #header
+ 
+ {
+     width:1100px;
+     height:120px;
+     border:solid 1px purple;
+     margin:0 auto;
+     margin-bottom:10px;
+     box-shadow:5px 5px 5px white;
+     background:linear-gradient(blue,red);
+    
+ }
+ #main
+ {
+     margin:0 auto;
+     width:1109px;
+     height:0px;
+     }  
+  
+   .tblhead
+   {
+       height:60px;
+       background:blue;
+       color:black;
+       font-size:30px;
+       font-weight:bold;
+       text-align:center;
+       border:1px solid;
+   }
+  .tblhead1
+        {
+            height:30px;
+            background:green;
+            color:black;
+            font-size:medium;
+            font-weight:bold;
+            text-align:center;
+            border-bottom:solid 1px #009900;
+            
+            background:linear-gradient(#009900, lime);
+            
+            }
+    
+    .lbl
+    {
+        color:black;
+        font-size:20px;
+        font-weight:bold;
+        text-align:right;
+        margin-top:10px;
+    }
+.txt {
+    border: solid 1px #CC0066;
+    color: black;
+    height: 25px;
+    width: 400px;
+    padding: 3px;
+    margin-top: 10px;
+}
+.txt:hover
+		{
+		 border-color:green;
+		}
+        .btn
+        {
+            background:white;
+            color:#000000;
+            font-weight:bold;
+            font-size:medium;
+            border-radius:4px;
+           
+            transition:background-color 1s ease;
+    height:30px;
+    text-align: center;
+}
+        .btn:hover
+        {
+            background:blue;
+            color:#FFF;
+            
+            height:30px;
+            font-weight:bold;
+            border:radius:4px;
+        }
+            
+        
+        
+  #mnu
+  {
+      Height:600px;
+      width:200px;
+      border:solid 0px black;
+      float:left;
+      vertical-align:top;
+      border-color:black;
+      margin-left:-200px;
+  }
+   #cnt
+        {
+            margin-left:-5px;
+            width:899px;
+            height:auto;
+            border:solid 0px red;
+            float:left;
+            vertical-align:top;
+            border:solid 1px green;
+            min-height:382px;
+            }
+.mbtn {
+    width: 200px;
+    Height :60px;
+        font-size: 30px;
+    background: white;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    margin-left: -20px;
+    font-size: 18px
+}
+         .mbtn:hover
+     {
+         background:blue;
+         height:60px;
+         width:200px;
+         font-weight:bold;
+         color:#fff;
+         transition: background-color 0.6s ease;  cursor:pointer;
+         }

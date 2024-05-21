@@ -1,0 +1,159 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="admin.master.cs" Inherits="Event_Managament_Sysyem.AdminM.admin" %>
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <link href="admin.css" rel="stylesheet" />
+    <title>Admin Dashborad</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+      <style type="text/css">
+          .style1 {
+              width: 100%;
+              margin-top: -25px;
+              height: auto;
+          }
+
+          .style2 {
+              height: 115px;
+              font-size: 36px;
+              color: darkblue;
+              text-align: left;
+               
+          }
+
+          .style3 {
+              height: 115px;
+              width: 204px;
+          }
+
+          .style4 {
+              height: 10px;
+              background: #FFFFFF;
+              color: #0000FF;
+              font-size: medium;
+              text-align: center;
+              border-bottom: solid 1px solid;
+              background: white;
+              width: 100px;
+              font-style: italic;
+          }
+
+         .style5 {
+             width: 1000px;
+             font-size: x-large;
+             margin-left:-20px;
+         }
+
+          .style7 {
+              font-size: large;
+          }
+
+          .style10 {
+              height: 115px;
+              font-size: 40px;
+              color: darkblue;
+              text-align: 500px;
+      
+          }
+      </style>
+</head>
+<body>
+    <form id="form2" runat="server">
+        <div>
+        <table class="style1">
+         <tr>               
+                <td class="style2">
+                    <strong class="style2"><a href="admin_dash.aspx"</a> Admin Dashboard</strong>
+                </td>
+
+              <td class="style10">
+                     <strong>Event Management System</strong>
+                </td>
+
+         </tr>
+        </table>
+    </div>
+    <div id="main">
+       
+        <div id="mnu">
+            <table class="main">
+
+                   <tr>
+                <td  class="style5">
+                        <asp:Button ID="Button9" runat="server" CssClass="mbtn" Text="User Details" CausesValidation="False" PostBackUrl="~/AdminM/UserDetails.aspx" Height="60" />
+                    </td>
+                </tr>
+                 
+                <tr>
+                    <td   class="style5">
+                        <asp:Button ID="Button12" runat="server" CssClass="mbtn" Text="Add Catering" CausesValidation="False" PostBackUrl="~/AdminM/AddCatering.aspx" Height="60px"/>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td   class="style5">
+                        <asp:Button ID="Button14" runat="server" CssClass="mbtn" Text="Add Decorator" CausesValidation="False" PostBackUrl="~/AdminM/AddDecorator.aspx" Height="60px" />
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td   class="style5">
+                        <asp:Button ID="Button13" runat="server" CssClass="mbtn" Text="Add Photographer" CausesValidation="False" PostBackUrl="~/AdminM/AddPhotographer.aspx" Height="60px"/>
+                    </td>
+                </tr>
+
+              <tr>
+                    <td   class="style5">
+                        <asp:Button ID="Button11" runat="server" CssClass="mbtn" Text="Add Dj" CausesValidation="False" PostBackUrl="~/AdminM/AddDj.aspx" Height="60px"/>
+                    </td>
+                </tr>
+                
+
+                <tr>
+                    <td   class="style5">
+                        <asp:Button ID="Button1" runat="server" Text="Add Event" CssClass="mbtn" CausesValidation="False" PostBackUrl="~/AdminM/AddEvent.aspx" Height="60px"/>
+                    </td>
+                </tr>
+
+                  <tr>
+                    <td   class="style5">
+                        <asp:Button ID="Button3" runat="server" CssClass="mbtn" Text="Add Venues" CausesValidation="False" PostBackUrl="~/AdminM/AddVenues.aspx" Height="60px"/>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="style5">
+                        <asp:Button ID="Button2" runat="server" CssClass="mbtn" Text="Add Package"  CausesValidation="False" PostBackUrl="~/AdminM/AddPackage.aspx" Height="60px"/>
+                    </td>
+                </tr>
+              
+                
+                <tr>
+                    <td   class="style5">
+                        <asp:Button ID="Button4" runat="server" CssClass="mbtn" Text="Booking" CausesValidation="False" PostBackUrl="~/AdminM/Booking.aspx" Height="60px"/>
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="style5">
+                        <asp:Button ID="Button6" runat="server" CssClass="mbtn" Text="Contact Us"  CausesValidation="False"  PostBackUrl="~/AdminM/ContactUs.aspx" Height="60px"/>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td  class="style5">
+                        <asp:Button ID="Button8" runat="server" CssClass="mbtn" Text="Log Out"  CausesValidation="False" PostBackUrl="~/Main/Login.aspx" Height="60px"/>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+        </div>
+        <div>
+  
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
