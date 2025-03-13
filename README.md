@@ -1,9 +1,9 @@
-🎟️ ASP.NET Event Management System
+# 🎟️ ASP.NET Event Management System
 
 The ASP.NET Event Management System is a web application designed to streamline event planning, registration, and attendee management. Built with ASP.NET, it provides a secure, scalable, and efficient platform for event organizers and attendees.
 
 
-🚀 Features
+# 🚀 Features
 
 📅 Event Creation & Management – Organizers can create, update, and manage events.
 
@@ -18,7 +18,7 @@ The ASP.NET Event Management System is a web application designed to streamline 
 🌐 Responsive UI – Modern, user-friendly interface for a seamless experience.
 
 
-🛠️ Installation Guide
+# 🛠️ Installation Guide
 
 Prerequisites
 
@@ -31,7 +31,7 @@ SQL Server (or any preferred database)
 
 Visual Studio 2022 (or compatible IDE)
 
-Steps to Set Up
+# Steps to Set Up
 
 1️⃣ Clone the Repository:
 
@@ -57,6 +57,6 @@ Open a browser and navigate to:
 
 http://localhost:5000
 
-📌 About
+# 📌 About
 
 The ASP.NET Event Management System is a powerful web application designed for efficient event management, featuring user authentication, data handling, and a responsive UI.
